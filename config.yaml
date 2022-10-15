@@ -1,0 +1,14 @@
+baseURL: "https://www.bernoth.com/"
+languageCode: "de-DE"
+title: "bernoth.com"
+theme: "book"
+BookToC: true
+BookTheme: 'light'
+permalinks:
+  docs: /:filename
+BookSearch: true
+disableKinds: ['taxonomy', 'taxonomyTerm']
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
