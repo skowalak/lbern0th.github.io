@@ -1,0 +1,15 @@
+/* You can add custom styles here. */
+/* the "new" indicator */
+
+        sup.new_exhibit { color: #0c0; font-weight: 700; text-transform: uppercase; font-size: 8px; vertical-align: middle; }
+        sup.new_exhibit:before { color: #0c0; font-weight: 700; text-transform: uppercase; font-size: 8px; vertical-align: middle; content: " NEU"; }
+
+        sup.new_live { color: #FF0000; font-weight: 400; text-transform: uppercase; font-size: 8px; vertical-align: middle; }
+        sup.new_live:before { color: #FF0000; font-weight: 400; text-transform: uppercase; font-size: 8px; vertical-align: middle; content: " ●"; }
+
+        sup.new_archive { color: #a39569; font-weight: 700; text-transform: uppercase; font-size: 8px; vertical-align: middle; }
+        sup.new_archive:before { color: #a39569; font-weight: 700; text-transform: uppercase; font-size: 8px; vertical-align: middle; content: " ARCHIV"; }
+
+/* end styling for index */
+
+// @import "plugins/numbered";
